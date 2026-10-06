@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="340" viewBox="0 0 1680 340">
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.12"/></filter><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6B7785"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="48" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#182230">End-to-end flight status prediction workflow</text>
+<text x="40" y="78" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#53606f">From full-year flight operations to a tuned binary delay classifier</text>
+<rect x="40" y="110" rx="16" ry="16" width="180" height="110" fill="#E8F0FE" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="65" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="65" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">1</text>
+<text x="58" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">2022 Flight Data</text>
+<text x="58" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">4.08M records · 61</text>
+<text x="58" y="210" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">fields</text>
+<line x1="224" y1="165.0" x2="237" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="245" y="110" rx="16" ry="16" width="180" height="110" fill="#EAF7EF" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="270" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="270" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">2</text>
+<text x="263" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Exploratory Analysis</text>
+<text x="263" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">airport, month, hour,</text>
+<text x="263" y="210" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">weekday</text>
+<line x1="429" y1="165.0" x2="442" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="450" y="110" rx="16" ry="16" width="180" height="110" fill="#FFF4E5" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="475" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="475" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">3</text>
+<text x="468" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Modeling Subset</text>
+<text x="468" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">ATL-origin flights</text>
+<line x1="634" y1="165.0" x2="647" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="655" y="110" rx="16" ry="16" width="180" height="110" fill="#F3E8FF" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="680" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="680" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">4</text>
+<text x="673" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Preprocessing</text>
+<text x="673" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">impute · scale · encode</text>
+<line x1="839" y1="165.0" x2="852" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="860" y="110" rx="16" ry="16" width="180" height="110" fill="#E8F7F5" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="885" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="885" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">5</text>
+<text x="878" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Time Engineering</text>
+<text x="878" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">sin/cos cyclical</text>
+<text x="878" y="210" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">features</text>
+<line x1="1044" y1="165.0" x2="1057" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1065" y="110" rx="16" ry="16" width="180" height="110" fill="#FCE8E6" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="1090" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="1090" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">6</text>
+<text x="1083" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Data Split</text>
+<text x="1083" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">70% train · 15% val ·</text>
+<text x="1083" y="210" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">15% test</text>
+<line x1="1249" y1="165.0" x2="1262" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1270" y="110" rx="16" ry="16" width="180" height="110" fill="#EEF2F7" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="1295" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="1295" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">7</text>
+<text x="1288" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Model Benchmark</text>
+<text x="1288" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">8 classifiers</text>
+<line x1="1454" y1="165.0" x2="1467" y2="165.0" stroke="#6B7785" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1475" y="110" rx="16" ry="16" width="180" height="110" fill="#E7F0FF" stroke="#273444" stroke-width="1.4" filter="url(#shadow)"/>
+<circle cx="1500" cy="135" r="15" fill="#FFFFFF" stroke="#273444" stroke-width="1.2"/>
+<text x="1500" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#182230">8</text>
+<text x="1493" y="169" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#182230">Optimization</text>
+<text x="1493" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#53606f">GridSearchCV → XGBoost</text>
+<text x="40" y="285" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#53606f">Target: ArrDel15 — 1 when arrival delay exceeds 15 minutes, otherwise 0.</text>
+<text x="40" y="310" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#53606f">Portfolio note: the repository presents analysis, results and visual evidence only; source notebooks are intentionally excluded.</text>
+</svg>
